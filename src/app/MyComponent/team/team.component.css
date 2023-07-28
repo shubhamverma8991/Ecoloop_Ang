@@ -1,0 +1,53 @@
+.logoStyle{
+    color: white;
+}
+.team {
+  width: 100%;
+  /* height: 400px; */
+  /* background-color: #1d3149; */
+  color:black;
+}
+.innercontainer {
+  /* width: 80%; */
+  height: 100%;
+  margin: 0 auto;
+  /* padding: 100px 0; */
+}
+
+.inner {
+    height: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
+}
+.teamspace {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #84b342;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 10px;
+  height: 320px;
+  font-weight: bold;
+}
+.info {
+  text-align: justify;
+}
+.socials {
+  margin-top: 10px;
+}
+a {
+  margin: 0 10px;
+}
+.position {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,143 @@
+.ContactDiv {
+    /* margin: 50px auto; */
+    /* padding: 0 100px; */
+    /* padding: 50px 0; */
+    /* width: 80%; */
+    /* background-image: url(../../assets/kindpng_1620926.png); */
+    /* background-position: ; */
+    margin: 5% auto;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+  }
+  .sectionhead {
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .contact {
+    display: flex;
+    width: 100%;
+  }
+  .ContactDiv > h4 {
+    /* width: 75%; */
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .wd-40 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+  }
+  .wd-40 > div {
+    width: 35%;
+    border: 1px solid black;
+    height: 110px;
+  }
+  .wd-60 {
+    width: 60%;
+  }
+  #name,
+  #email,
+  #contact,
+  #company {
+    width: 80%;
+  }
+  .contactsus {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  
+  .enquiry > textarea {
+    width: 80%;
+    resize: none;
+  }
+  
+  input {
+    border: none;
+    border: 1px solid yellowgreen;
+    padding: 10px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 15px;
+    font-weight: bolder;
+  }
+  textarea {
+    padding: 10px 0;
+    padding-left: 15px;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bolder;
+
+  }
+  .wd-60 > div {
+    margin: 20px 0;
+  }
+  input::placeholder {
+    font-weight: 600;
+  }
+  textarea::placeholder {
+    font-weight: 600;
+  }
+  button {
+    padding: 5px 10px;
+    border: none;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  .wd-40 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellowgreen;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transform: var(--transition);
+    -webkit-transform: var(--transition);
+    -moz-transform: var(--transition);
+    -ms-transform: var(--transition);
+    -o-transform: var(--transition);
+    background-color: white;
+  }
+  /* .wd-40 > div:nth-child(odd):hover {
+    background-color: #1d3149;
+    color: white;
+    border: none;
+  } */
+  .wd-40 > div:hover {
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  .wd-40 > div > h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .wd-40 > div > h4 {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  

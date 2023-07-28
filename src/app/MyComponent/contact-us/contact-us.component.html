@@ -1,0 +1,47 @@
+<div class="ContactDiv">
+    <h4 class="sectionhead Ecoloop">Contact US</h4>
+    <div class="contact">
+      <div class="innerContainer wd-40">
+        <div>
+          <h3>Email</h3>
+          <h4>Hi@gmail.com</h4>
+        </div>
+        <div>
+          <h3>WhatsApp</h3>
+          <h4>+91 123,456,789,0</h4>
+        </div>
+        <div>
+          <h3>FaceBook</h3>
+          <h4>https.facebook.com</h4>
+        </div>
+        <div>
+          <h3>Linkedln</h3>
+          <h4>https:linkedln.com</h4>
+        </div>
+      </div>
+      <div class="innerContainer wd-60">
+        <div>
+          <input type="text" name="name" id="name" placeholder="Enter Name Here" [(ngModel)]="name" />
+        </div>
+        <div class="phone">
+         
+          <input type="number" name="contact" id="contact" placeholder="Enter Mobile Number" [(ngModel)]="number" />
+        </div>
+        <div class="email">
+         
+          <input type="email" name="email" id="email" placeholder="Enter Email Id Here" [(ngModel)]="email" />
+        </div>
+        <div class="company">
+          
+          <input type="text" name="company" id="company" placeholder="Enter Company Name" [(ngModel)]="companyName" />
+        </div>
+        <div class="enquiry">
+         
+          <textarea placeholder="Please write your Enquiry" name="msg" id="msg" rows="10" [(ngModel)]="message"></textarea>
+        </div>
+        <div class="button">
+          <button (click)="submitForm()">Submit a Enquiry</button>
+        </div>
+      </div>
+    </div>
+  </div>

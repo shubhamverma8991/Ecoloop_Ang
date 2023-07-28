@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.Ecoloop {
+    color: #84b342;
+    font-weight: bolder;
+}
+
+/* -- Animated hr -- */
+
+.separator {
+    margin-top: 25px;
+    margin-bottom: 80px;
+    border: 0;
+  }
+
+  .separator--dotter {
+    border: 0;
+    border-bottom: 5px dotted #bada55;
+  
+    width: 0;
+    animation: separator-width 1.5s ease-out forwards;
+  }
+  @keyframes separator-width {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+@keyframes progress {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(1440px);
+    }
+}
+
+
+.buildInProgress{
+    font-weight: bolder;
+    margin: 10px 0;
+    font-size: 22px;
+    text-align: center;
+    color: red;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

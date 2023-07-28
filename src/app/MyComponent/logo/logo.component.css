@@ -1,0 +1,8 @@
+.logo_section{
+    text-align: center;
+    
+}
+.logo_section>img{
+    width: 20%;
+    cursor: pointer;
+}

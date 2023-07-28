@@ -1,0 +1,30 @@
+<div id="team" class="team">
+    <div class="innercontainer">
+      <h3 class="sectionhead">Our Team</h3>
+      <h2>Together we Define</h2>
+      <div class="inner">  
+          <div *ngFor="let item of person ;let index=index" class="teamspace" id="myElement" key=index>
+            <div class="name" id=index>
+              {{item.name}}
+            </div>
+            <div class="position" id=index>
+              {{item.position}}
+            </div>
+            <div class="info" id=index>
+              {{item.msg}}
+            </div>
+            <div class="socials">
+              <a class="logoStyle" href="https://www.linkedin.com/" target="_blank">
+                <!-- <FaLinkedinIn /> -->
+              </a>
+              <a class="logoStyle" href="https://www.facebook.com/login/" target="_blank">
+                <!-- <FaFacebook /> -->
+              </a>
+              <a class="logoStyle" href="https://twitter.com/" target="_blank">
+                <!-- <FaTwitter /> -->
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
