@@ -16,6 +16,8 @@ import { FooterComponent } from './MyComponent/footer/footer.component';
 import { TeamComponent } from './MyComponent/team/team.component';
 import { CareerComponent } from './MyComponent/career/career.component';
 import { SiteResourcesComponent } from './MyComponent/site-resources/site-resources.component';
+import { PortfolioComponent } from './MyComponent/portfolio/portfolio.component';
+import { PortfolioImagesComponent } from './MyComponent/portfolio-images/portfolio-images.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { SiteResourcesComponent } from './MyComponent/site-resources/site-resour
     FooterComponent,
     TeamComponent,
     CareerComponent,
-    SiteResourcesComponent
+    SiteResourcesComponent,
+    PortfolioComponent,
+    PortfolioImagesComponent
   ],
   imports: [
     BrowserModule,
